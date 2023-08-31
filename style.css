@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.word {
+  position: absolute;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.ul1 {
+  margin-left: 20px;
+  margin-top: 120px;
+  position: absolute;
+  display: flex;
+  list-style-type: none;
+  object-fit: cover;
+  gap: 2rem;
+}
+
+.ul1 li img {
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.ul2 {
+  position: absolute;
+  display: flex;
+  list-style-type: none;
+  gap: 100px;
+  margin-top: 290px;
+  margin-left: 50px;
+}
+
+.ul2 li a{
+    text-decoration: none;
+
+}
+ul li a:hover{
+    color: orange;
+}
